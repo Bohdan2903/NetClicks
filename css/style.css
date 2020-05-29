@@ -681,6 +681,9 @@ main {
     border-radius: 10px;
 
 }
+.btn-submit{
+    display: none;
+}
 
 @media (max-width: 1024px) {
     .container {
@@ -690,7 +693,10 @@ main {
 	.cross {
 		top: 0;
 		right: 0;
-	}
+    }
+    .btn-submit{
+        display: block;
+    }
 }
 
 @media (max-width: 794px) {
